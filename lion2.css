@@ -156,6 +156,6 @@ html.nolayout body div#fra_chatContainer.s-chat-sidebar.clearfix div#chatMessage
 }
 */
 
-#chatMessagePinned {
-  background: #98c9a3
+.s-chat-message__pinned {
+  background: linear-gradient(90deg, transparent 75%, #98c9a3 90%) !important;
 }
