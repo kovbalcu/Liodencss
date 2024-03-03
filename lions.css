@@ -145,3 +145,95 @@ html body div.container.footer.center.white.visible-lg.visible-md.visible-sm > u
   padding: 1rem 2rem;
   border-radius: 1rem;
 }
+/*oldalsó cucc*/
+@import url('https://fonts.googleapis.com/css2?family=Madimi+One&display=swap');
+
+.mycontainer {
+    font-family: "Madimi One", sans-serif;
+    background: none;
+    height: 0px;
+    width: 0px;
+    padding: 0px;
+    display: flex;
+    justify-content: center  !important;
+    left: 0px;
+    right: 0px;
+
+}
+
+.lbcucu{
+    background: white;
+    color: purple; /*szöveg szin*/
+    padding: 10px;
+    border: none;
+    position: fixed;
+    border-radius: 10px 10px 0px 0px; /*kerkítés genyó*/
+    left: 5px;
+    bottom: 0px;
+    width: 250px;
+    height: 100px;
+    overflow: hidden; /* görgetés off */
+    transition: 1.69s !important;
+}
+
+.Fejresz{
+    text-align: center;
+}
+
+.cuccvalydudli {
+    size: 100 !important;
+    color: rgb(255, 39, 75);
+}
+
+
+.infocuccvalydudli {
+    color: blue;
+    font: 15px sans-serif;
+}
+
+#sndacc {
+    color: black !important;
+}
+
+.lbcucu:hover{
+    /*transform: translateX(50px);  test izé */
+    width: 250px;
+    height: 600px;
+    transition: 1.69s !important;
+    overflow: hidden; /* görgetés off */
+}
+
+.lbcucu::-webkit-scrollbar {
+    background: none;
+    width: 0px;
+    height: 0px;
+}
+
+.rainboweffect{
+    background: linear-gradient(to right, violet, indigo, blue, green, yellow, orange, red);
+    -webkit-background-clip: text;
+    color: transparent;
+    display: inline-block;
+}
+
+ul{
+    margin-left: -10px;
+    padding-left: 156x;
+    
+}
+
+li{
+    letter-spacing: 1.3px;
+    padding-left: 0px;
+    margin-left: 0px
+}
+
+li::marker{
+    content: "🏹";
+    color: green;
+
+}
+
+html body div.container.main div.row div.col-md-9.col-xs-12 center div#fraProfileContent div.mycontainer div.lbcucu div.Fejresz hr {
+    border: 1.23px solid black;
+}
