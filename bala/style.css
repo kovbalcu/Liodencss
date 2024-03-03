@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Madimi+One&display=swap');
+
+
+body {
+    background: gray
+}
+
+.mycontainer {
+    font-family: "Madimi One", sans-serif;
+    background: none;
+    height: 0px;
+    width: 0px;
+    padding: 0px;
+    display: flex;
+    justify-content: center  !important;
+    left: 0px;
+    right: 0px;
+
+}
+
+.lbcucu{
+    background: white;
+    color: purple; /*szöveg szin*/
+    padding: 10px;
+    border: none;
+    position: fixed;
+    text-align: center;
+    border-radius: 10px 10px 0px 0px; /*kerkítés genyó*/
+    left: 5px;
+    bottom: 0px;
+    width: 250px;
+    height: 30px;
+    overflow: hidden; /* görgetés off */
+    transition: 1.69s !important;
+}
+
+
+
+.cuccvalydudli {
+    size: 100 !important;
+    color: pink;
+}
+
+
+.infocuccvalydudli {
+    color: aqua;
+    font: 15px sans-serif;
+}
+
+#sndacc {
+    color: black !important;
+}
+
+.lbcucu:hover{
+    /*transform: translateX(50px);  test izé */
+    width: 250px;
+    height: 600px;
+    transition: 1.69s !important;
+    overflow: hidden; /* görgetés off */
+}
+
+.lbcucu::-webkit-scrollbar {
+    background: none;
+    width: 0px;
+    height: 0px;
+}
+
+.rainboweffect{
+    background: linear-gradient(to right, violet, indigo, blue, green, yellow, orange, red);
+    -webkit-background-clip: text;
+    color: transparent;
+    display: inline-block;
+}
