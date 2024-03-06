@@ -228,7 +228,7 @@ li{
     margin-left: 0px
 }
 
-li::marker{
+.myli::marker{
     content: "🏹";
     color: green;
 
