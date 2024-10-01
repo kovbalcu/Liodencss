@@ -1,0 +1,3 @@
+table.inner-table:nth-child(2) {
+  display: none;
+}
